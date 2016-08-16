@@ -1,0 +1,37 @@
+This Instruction is creater by Project Devoloper
+================================================
+(EIEM SRABANTI MADAM GROPU)
+=============================
+Project Name: WEB BASED MAINTENANCE MANAGEMENT SYSTEM
+=====================================================
+
+Folder Description
+-------------------
+sql_database_file :--> It is main sql database in this project.
+css :--> It is store all css file.
+js :--> It is store all js file.
+pages & admin :--> It is store all source page in this project.
+resources :--> It is store 1. "header.php" 2. "footer.php" and 3. "connection.php" file in this project.
+
+File Description
+----------------
+index.php :--> Here "index.php" is re-direct "pages"->"index.php" page because all project users page is store in one folder that is "pages" 
+
+
+Install Process
+---------------
+1. Install "WampServer.exe" in your computer. (It is used to create your computer system is a local server)
+2. Install "Notepad++.exe" in your computer. (It is used to Edit or Show project source code)
+3. Copy the "project" folder.
+4. Go to "Local Disk(C)"--> open "wamp" folder and then open "www" folder, here you past this "project" folder.
+5. Open any "Browser" and write the address bar "localhost/phpmyadmin" and press enter.
+6. Create new database, so you enter database name is "eiem_project" and click on create button.
+7. Then click on the Import manu.
+8. Browse and select the "eiem_project.sql" file in your project file and click on Go button.
+9. Open any "Browser" and write the address bar "localhost" and press enter.
+10. Then project folder is show there.
+11. Click on "project" folder.
+12. Now Project is Run.
+13. User login, Email:- xyz@gmail.com, Password:- 12345
+14. Administrator login, go to address bar on this browser and write "http://localhost/Project/admin/".
+15. Email:- admin@eiem.com, Password:- 12345

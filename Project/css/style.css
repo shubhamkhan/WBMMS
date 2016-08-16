@@ -1,0 +1,84 @@
+.bg_red{
+background: linear-gradient(rgb(174, 85, 103), rgb(136, 67, 87));
+box-shadow: 0px 4px 3px rgb(227, 136, 164) inset;
+color: #FFFFFF;
+}
+.bg_orange{
+background: linear-gradient(rgb(174, 103, 85), rgb(136, 87, 67));
+box-shadow: 0px 4px 3px rgb(227, 164, 136) inset
+}
+.bg_green {
+background-color: rgb(105, 167, 78);
+background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+box-shadow: 0px 2px 3px rgb(164, 227, 136) inset;
+color: #FFFFFF;
+}
+.bg_violet {
+background-color:rgb(105, 78, 167);
+color: #FFFFFF;
+background: linear-gradient(rgb(103, 85, 174), rgb(87, 67, 136)) repeat scroll 0% 0% rgb(105, 78, 167);
+box-shadow: 0px 2px 3px rgb(164, 136, 227) inset;
+border-color: rgb(59, 34, 110) rgb(59, 34, 110) rgb(44, 21, 81);
+}
+
+.user_menu {
+	box-shadow: 5px 5px 5px 5px #e8e6e5;
+	border-radius: 4px;
+	width:100%;
+	float:left;
+	margin-right:8%;
+}
+.user_head {
+	background:#d42875;
+	border-top-left-radius:4px;
+	padding:1.6em;
+}
+.user_head img {
+	float: left;
+	margin-right: 2em;
+}
+.user_head h3 {
+	color:#fff;
+	font-size:2.3em;
+	margin-top:10px;
+	font-weight:300;
+}
+.user_head p {
+	color:#fff;
+	font-size:1.1em;
+	font-style:italic;
+	margin-top:2px;
+	font-weight:400;
+}
+.thumbicon{
+	width: 100px;
+	height: 100px;
+	border-image:round;
+}
+.user_list ul li {
+	list-style-type:none;
+}
+.user_list ul li a {
+	color:#7c584b;
+	font-size:1.15em;
+	font-weight:600;
+	padding:1.5em;
+	text-decoration:none;
+	display: block;
+}
+.user_list ul li {
+	border-top:1px solid #e5e5e5;
+}
+.user_list ul li a.active {
+	background:#eef9f7;
+	color:#0fb9ae;
+	border-left:4px solid #83e1db;
+}
+.user_list ul li a:hover {
+	background:#eef9f7;
+	color:#0fb9ae;
+	border-left:4px solid #83e1db;
+}
+.glyphicons_user{
+	icon:url(../images/icon/glyphicons/glyphicons-4-user.png);
+}
